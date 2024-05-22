@@ -1,0 +1,99 @@
+body {
+   background-color: #131722;
+   color: #9B9EA7;
+   font-family: Arial;
+   font-size: 12px;
+}
+input{
+   background-color:#1E222D;
+   color: #9B9EA7;
+   outline: none;
+   border: 0px solid black;
+   margin-bottom: 2px;
+   border-radius: 2px;
+   
+
+}
+button{
+   background-color:#1E222D;
+   color: #9B9EA7;
+   border: 0px solid black;
+   margin-bottom: 2px;
+   border-radius: 2px;
+}
+[data-field] {
+   font-size: 12px;
+   
+}
+[data-input-mode="long"] {
+   background-color: #089981;
+   color: #D1D4DC;
+}
+[data-input-mode="short"] {
+   background-color: #F23645;
+   color: #D1D4DC;
+}
+button {
+   cursor: pointer;
+}
+[data-input="addProcent"] {
+      width: 40px;
+}
+[data-input="shoulder"] {
+      width: 40px;
+}
+input::placeholder {
+   font-size: 10px;
+}
+
+
+[data-input="first"] {
+   width: 100px;
+}
+[data-input="first"]._active {
+   color: #999708;
+}
+[data-input="second"]._active {
+   color: #999708;
+}
+[data-input="second"] {
+   width: 100px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+[data-profit-usdt]._green{
+   color: #089981;
+}
+
+[data-profit-uah]._green {
+   color: #089981;
+}
+[data-profit-usdt]._red{
+   color: #F23645;
+}
+
+[data-profit-uah]._red {
+   color: #F23645;
+}
+
+[data-course] {
+   cursor: pointer;
+}
+
+[data-liquidation] {
+   cursor: auto;
+}
+
+[data-copy-price] {
+   font-size: 12px;
+}
+[data-copy-first] {
+   font-size: 12px;
+}
+[data-copy-second] {
+   font-size: 12px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/index.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div>
+      Баланс:
+      <span data-balance-usdt>
+         10
+      </span>
+      <span data-balance-uah>
+         390
+      </span>
+   </div>
+
+   <div>
+      Профит:
+      <span data-profit-usdt="0">
+         0
+      </span>
+      <span data-profit-uah="0">
+         0
+      </span>
+   </div>
+
+   <div>
+      Сделки:
+      <span data-deals>
+         0
+      </span>
+   </div>
+
+
+   <!-- Курс Gala:
+   <span data-course>
+      0
+   </span> -->
+
+   <div>
+      <button data-input-mode="long">↑</button>  
+   </div>
+  
+   <button data-paste-price>↑</button>
+
+   <input data-input="price" type="number" placeholder="Цена " minlength="6" maxlength="18" autocomplete="on" required
+      value="10">
+   <button data-paste-first>↑</button>  
+
+   <input data-input="first" type="number" placeholder="Вход" minlength="6" maxlength="18" autocomplete="on" required
+      value="0.06797332">
+   <button data-paste-second>↑</button>
+
+
+   <input data-input="second" type="number" placeholder="Выход" minlength="6" maxlength="18" autocomplete="on" required
+      value="0.06897332">
+
+
+   <div>
+      <button data-copy-price>Copy</button>
+      <button data-copy-first>Copy</button>
+      <button data-copy-second>Copy</button>
+   </div>
+
+   <div>
+      <input data-input="addProcent" type="number" placeholder="Процент" minlength="6" maxlength="18" autocomplete="on"
+         required value="0">
+      %
+      <input data-input="shoulder" type="number" placeholder="Плечи" minlength="6" maxlength="18" autocomplete="on"
+         required value="1">
+      x
+      <button data-liquidation="100">100%</button>
+   </div>
+
+
+
+
+
+   <button data-change>Поменять</button> 
+   <button data-reset>Сбросить</button>
+   <div>
+      <button data-button>Ввести</button>
+   </div>
+
+
+   <div data-field>
+
+   </div>
+
+
+   <script src="js/index.js"></script>
+</body>
+
+</html>
